@@ -2,8 +2,8 @@
 CREATE TABLE GradeRecords 
 (	StudentID INT,
 	FirstName VARCHAR(11),
-    LastName VARCHAR(15),
-    MidtermExam FLOAT(4),
+        LastName VARCHAR(15),
+        MidtermExam FLOAT(4),
 	FinalExam FLOAT(4),
 	Assignment1 FLOAT(4),
 	Assignment2 FLOAT(4),
@@ -155,7 +155,7 @@ DROP COLUMN
 -- Using SELECT INTO create the destination table Grades and copy the 7 grade columns
 -- of the source table GradeRecords to the new destination table Grades.
 SELECT    
-    StudentID,
+        StudentID,
 	MidtermExam,
 	FinalExam,
 	Assignment1,
